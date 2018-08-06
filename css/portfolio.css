@@ -1,0 +1,96 @@
+body{
+  background-color: #4e4e50;
+  max-width: 960px;
+  margin: auto;
+  font-family: monospace;
+}
+.header{
+  display:grid;
+  grid-template-columns: 70% 30%;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  background-image: url("../resources/images/background.png");
+  background-repeat: no-repeat;
+  height: 400px;
+  background-size: 960px auto;
+}
+.banner{
+  text-align: left;
+  font-size: 20px;
+  width: auto;
+  color: #c3073f;
+  margin-left: 50px;
+  margin-top: 200px;
+}
+.banner strong{
+  font-size: 40px;
+}
+.aside{
+  color: #c2cad0;
+  text-align:center;
+  height: 400px;
+  background-color: #6f2232;
+  background-color: rgba(111,35,50,.5);
+}
+.extLink{
+  height: auto;
+  width: 15%;
+  padding: 4%;
+}
+.profile{
+  height: 150px;
+  width: 150px;
+  border-radius:80px;
+  margin: 30px
+}
+.navbar{
+  width: 100%;
+  float: none;
+  border-bottom: 3px solid black;
+
+}
+.navbar ul li{
+  display: inline;
+}
+.navbar ul{
+  text-align: center;
+  list-style-type: none;
+}
+.navbar a {
+	padding: 8px 15px;
+	text-decoration: none;
+	font-weight: bold;
+  display:inline block;
+  color: #white;
+}
+a:visited{
+  color: #white;
+}
+.contentWrapper{
+  display:grid;
+  grid-template-columns: 70% 30%;
+  background-color: #1a1a1d;
+}
+.mainContent{
+  margin: 20px;
+  color: #c2cad0;
+}
+.mainContent h2{
+  color: #c3073f;
+}
+.skills{
+  background-color: #6f2232;
+  background-color: rgba(111,35,50,.5);
+  color: #c2cad0;
+}
+.skills h3{
+  text-align: center;
+  border-bottom: 3px solid black;
+  margin: 20px;
+}
+.skills li{
+  text-align: right;
+  list-style-type: none;
+  border-bottom: 5px;
+  margin: 20%;
+}
