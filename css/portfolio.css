@@ -78,17 +78,17 @@ a:visited{
 .mainContent h2{
   color: #c3073f;
 }
-.skills{
+.sidebar{
   background-color: #6f2232;
   background-color: rgba(111,35,50,.5);
   color: #c2cad0;
 }
-.skills h3{
+.sidebar h3{
   text-align: center;
   border-bottom: 3px solid black;
   margin: 20px;
 }
-.skills li{
+.sidebar li{
   text-align: right;
   list-style-type: none;
   border-bottom: 5px;
